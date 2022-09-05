@@ -2,7 +2,11 @@
 ![](https://t4.ftcdn.net/jpg/03/14/92/29/360_F_314922983_mdsn0ZPqCSWbuDQBfsV3mjhsGrCyGDas.jpg)
 
 ### Project description:
-> This web application is an implementation of a simple taxi service.
+> This web application is an implementation of a simple taxi service. 
+> The app allows you to work with the database directly through your browser. 
+> Create and manage your own set of cars, add drivers and manufacturers!  
+> 
+> Add, change and delete data in just one click!
 
 ### Features: 
 > Various CRUD operations such as:
@@ -19,6 +23,13 @@
 * Controller - provides for the processing of user requests;
 * DAO - provides a database operation;
 * Service - includes all the application logic;
+
+### Application was built with:
+* Java 11;
+* JDBC;
+* Apache Maven 3.8.6 
+* Apache Tomcat 9.0.65;
+* MySQL;
 
 ### How to launch project:
 > It is required to have JDK, MySQL, Apache Maven & Tomcat (v. 9.0.65)
