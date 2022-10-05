@@ -1,12 +1,14 @@
 # 🚕 Taxi service 🚕
-![](https://t4.ftcdn.net/jpg/03/14/92/29/360_F_314922983_mdsn0ZPqCSWbuDQBfsV3mjhsGrCyGDas.jpg)
+![](image/logo.jpg)
 
 ### Project description:
-> This web application is an implementation of a simple taxi service. 
-> The app allows you to work with the database directly through your browser. 
-> Create and manage your own set of cars, add drivers and manufacturers!  
-> 
-> Add, change and delete data in just one click!
+> This is web-application that represent simple taxi service. 
+> The app includes backend and frontend parts, is implemented 
+> using n-tier architecture, connected to MySQL database and 
+> complies with SOLID standard. The program allows you to perform 
+> CRUD operations with the database, as well as to register and 
+> authenticate the driver.
+
 
 ### Features: 
 > Various CRUD operations such as:
@@ -15,8 +17,9 @@
 * create/update/delete a driver;
 * display list of manufacturers/drivers/cars;
 * add driver to car / remove driver from car;
-> The possibility to register as a driver and then be authenticated in service
-> Provided logout
+> The possibility to register as a driver and then be authenticated in service.
+> 
+> Provided login and logout
 
 ### Structure:
 > The project consists of three layers:
@@ -24,9 +27,15 @@
 * DAO - provides a database operation;
 * Service - includes all the application logic;
 
+> Relationships in the database:
+> 
+> ![](image/diagram.png)
+
 ### Application was built with:
 * Java 11;
+* HTML, CSS
 * JDBC;
+* HttpServlet and HttpFilter
 * Apache Maven 3.8.6 
 * Apache Tomcat 9.0.65;
 * MySQL;
